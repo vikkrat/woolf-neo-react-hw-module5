@@ -1,0 +1,17 @@
+{
+    "name": "La La Movies",
+    "short_name": "LaLa",
+    "description": "Romantic movie search app inspired by La La Land",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff0f5",
+    "theme_color": "#e52b50",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      }
+    ]
+  }
+  

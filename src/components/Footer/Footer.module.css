@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff0f5;
+    color: #e52b50;
+    font-family: 'Dancing Script', cursive;
+    border-top: 2px dashed #e52b50;
+  }
+  
+
+.footer img {
+    border-radius: 12px;
+    margin-bottom: 8px;
+}

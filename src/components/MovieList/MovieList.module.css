@@ -1,0 +1,35 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .item {
+    width: 100%;
+  }
+  
+  .link {
+    display: block;
+    padding: 14px 24px;
+    background-color: #fff0f5;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    color: #e52b50;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: left;              /* ← вирівнювання по ліву сторону */
+    line-height: 1.4;
+  }
+  
+  .link:hover {
+    background-color: #ffe135;
+    color: #000;
+    transform: scale(1.02);
+  }
+  

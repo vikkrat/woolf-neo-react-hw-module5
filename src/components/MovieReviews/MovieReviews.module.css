@@ -1,0 +1,30 @@
+.reviewList {
+    list-style: none;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+.reviewItem {
+    margin-bottom: 30px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #fff8dc;
+    border: 2px dashed #e52b50;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.reviewAuthor {
+    font-size: 20px;
+    color: #e52b50;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.reviewContent {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5;
+    font-style: italic;
+}
