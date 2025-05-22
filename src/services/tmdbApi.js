@@ -42,11 +42,10 @@ export const getMovieDetails = async (movieId) => {
 export const getMovieCredits = async (movieId) => {
     const response = await axiosInstance.get(`/movie/${movieId}/credits`);
     return response.data.cast;
-  };
+};
 
-  export const getMovieReviews = async (movieId) => {
+export const getMovieReviews = async (movieId) => {
     const response = await axiosInstance.get(`/movie/${movieId}/reviews`);
     return response.data.results;
-  };
-  
-  
+};
+
